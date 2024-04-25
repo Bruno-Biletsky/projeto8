@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: black;
+    font-size: 30px;
+    color: aquamarine;
+    text-align: center;
+}
+p{
+    background-image: linear-gradient(to right, purple, aqua);
+    font-size: 2rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-text-fill-color: transparent; /*Fazendo alguns efeitos -> deixa o texto transparente (pega a cor gerada acima no fundo)*/
+    background-clip: text; /*tira a cor criada no fundo do texto (recorta)*/
+}
